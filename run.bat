@@ -1,2 +1,2 @@
-ruby ./generateTomlSettings.rb > init.toml
-ruby ./generateRepositoriesAndLanguages.rb
+ruby.exe ./generateTomlSettings.rb > init.toml
+ruby.exe ./generateRepositoriesAndLangugages.rb

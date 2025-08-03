@@ -9,7 +9,7 @@ Secondly a script to generate repos with interaction.
 
 
 Plugins not Updating problem.
-How to find this ! 
+How to solve this ! 
 in your $HOME or User directory ( example C://User//.cache//
 
 you need to delete these 

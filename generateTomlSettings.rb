@@ -13,11 +13,13 @@ puts %q[buffer_index_type = 4]
 puts %q[enable_tabline_filetype_icon = true]
 puts %q[enable_statusline_mode = false]
 
+puts ""
 puts "[[layers]]"
 puts %q[name = 'autocomplete']
 puts %q[auto_completion_return_key_behavior = "complete"]
 puts %q[auto_completion_tab_key_behavior = "smart"]
 
+puts ""
 puts "[[layers]]"
 puts %q[name = 'shell']
 puts %q[default_position = 'top']

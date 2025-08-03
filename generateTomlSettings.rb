@@ -1,7 +1,7 @@
 #!/home/linuxbrew/.linuxbrew/bin/ruby
 #encoding: ISO-8859-1
 #system("clear")
-puts "This will generate toml script for SpaceVim"
+#puts "This will generate toml script for SpaceVim"
 
 puts "[options]"
 puts %q[colorscheme = "gruvbox"]
@@ -23,4 +23,4 @@ puts %q[name = 'shell']
 puts %q[default_position = 'top']
 puts %q[default_height = 30]
 
-puts %q[The Default Script of SpaceVim is generated]
+#puts %q[The Default Script of SpaceVim is generated]

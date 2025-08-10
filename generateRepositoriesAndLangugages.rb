@@ -56,8 +56,9 @@ def generateLanguage(language)
   
   language.each do |element|
     toml.puts ""
-    toml.puts "[[layers]]"
-    toml.puts "name = '#{element}'"
+    toml.print "[[layers]]"
+    toml.puts ""
+    toml.print "name = '#{element}'"
     toml.puts ""
   end
   
@@ -69,9 +70,11 @@ def generateRepositories(repositories)
 
   repositories.each do |element|
     toml.puts ""
-    toml.puts "[[custom_plugins]]"
-    toml.puts "repo = '#{element}'"
-    toml.puts %q[merged = false]
+    toml.print "[[custom_plugins]]"
+    toml.puts ""
+    toml.print "repo = '#{element}'"
+    toml.puts ""
+    toml.print %q[merged = false]
     toml.puts ""
   end
   
